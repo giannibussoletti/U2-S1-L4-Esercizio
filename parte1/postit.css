@@ -1,0 +1,65 @@
+@keyframes post-it-rain {
+}
+
+body {
+  height: 100vh;
+}
+main {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#post-it-board {
+  background-color: blueviolet;
+  width: 1200px;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#post-it-board .post-it:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+.post-it {
+  border: 1px solid;
+  background-color: aqua;
+  width: 200px;
+  height: 200px;
+  transition: all 500ms ease-in-out 0s;
+}
+
+#card-1 {
+  transform: rotate(5deg) translateX(20px);
+}
+#card-2 {
+  transform: rotate(-7deg) translateX(-10px);
+}
+#card-3 {
+  transform: rotate(-1deg) translateX(-10px);
+}
+#card-4 {
+  transform: rotate(2deg) translateX(30px);
+}
+#card-5 {
+  transform: rotate(-3deg);
+}
+#card-6 {
+  transform: rotate(2deg) translateX(-20px);
+}
+#card-7 {
+  transform: rotate(-2deg);
+}
+#card-8 {
+  transform: rotate(8deg) translateX(20px);
+}
+#card-9 {
+  transform: rotate(-6deg);
+}
+#card-10 {
+  transform: rotate(9deg) translateX(-20px);
+}
