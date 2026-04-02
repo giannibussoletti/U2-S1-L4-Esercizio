@@ -1,4 +1,12 @@
 @keyframes post-it-rain {
+  0% {
+    opacity: 0;
+    transform: scale(1.5) translateX(100px) rotate(0deg);
+  }
+
+  50% {
+    opacity: 1;
+  }
 }
 
 body {
@@ -35,31 +43,41 @@ main {
 
 #card-1 {
   transform: rotate(5deg) translateX(20px);
+  animation: post-it-rain 1s ease-in-out 0s 1 backwards;
 }
 #card-2 {
   transform: rotate(-7deg) translateX(-10px);
+  animation: post-it-rain 1.5s ease-in-out 0s 1 backwards;
 }
 #card-3 {
   transform: rotate(-1deg) translateX(-10px);
+  animation: post-it-rain 1.3s ease-in-out 0s 1 backwards;
 }
 #card-4 {
   transform: rotate(2deg) translateX(30px);
+  animation: post-it-rain 1.4s ease-in-out 0s 1 backwards;
 }
 #card-5 {
   transform: rotate(-3deg);
+  animation: post-it-rain 1.2s ease-in-out 0s 1 backwards;
 }
 #card-6 {
   transform: rotate(2deg) translateX(-20px);
+  animation: post-it-rain 1s ease-in-out 0s 1 backwards;
 }
 #card-7 {
   transform: rotate(-2deg);
+  animation: post-it-rain 1.2s ease-in-out 0s 1 backwards;
 }
 #card-8 {
   transform: rotate(8deg) translateX(20px);
+  animation: post-it-rain 1.1s ease-in-out 0s 1 backwards;
 }
 #card-9 {
   transform: rotate(-6deg);
+  animation: post-it-rain 1.2s ease-in-out 0s 1 backwards;
 }
 #card-10 {
   transform: rotate(9deg) translateX(-20px);
+  animation: post-it-rain 1.44s ease-in-out 0s 1 backwards;
 }
